@@ -1,0 +1,22 @@
+{
+    "name": "zulfiqar/contact",
+    "description": "this will send email to admin and save contact details in database",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Zulfiqar",
+            "email": "zulfiqar.tariq@appsgenii.eu"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Zulfiqar\\Contact\\": "src/"
+        },
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ]
+    }
+}
